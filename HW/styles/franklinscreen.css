@@ -13,7 +13,7 @@ h1 {
     background-color: lightyellow;
     border: 10px solid #000000;
     padding: 24px;
-    margin right: 1000px
+  
 }
 
 #daily {
@@ -30,11 +30,11 @@ h1 {
     margin-bottom: 24px
 }
 
-h2 {
+h3 {
     background-color: lightyellow;
     border: 5px solid #000000;
     padding: 15px;
-    margin right: 100px
+ 
 }
 
 #frank {
@@ -56,7 +56,7 @@ p {
     background-color: lightyellow;
     padding: 12px;
     border: 5px;
-    margin left: 100px
+
 }
 
 nav {
@@ -64,7 +64,7 @@ nav {
     background-color: lightyellow;
     padding: 12px;
     border: 5px;
-    margin left: 100px
+
 }
 
 body {
