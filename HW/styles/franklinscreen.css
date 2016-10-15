@@ -1,0 +1,72 @@
+/*Change the css box model*/
+
+html* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: lightyellow;
+    border: 10px solid #000000;
+    padding: 24px;
+    margin right: 1000px
+}
+
+#daily {
+    margin-top: 30px;
+    background-color: cornflowerblue;
+    border: 5px solid #121212;
+}
+
+#abc {
+    background-color: lightyellow;
+    border: 5px solid #121212;
+    padding: 24px;
+    margin-top: 30px;
+    margin-bottom: 24px
+}
+
+h2 {
+    background-color: lightyellow;
+    border: 5px solid #000000;
+    padding: 15px;
+    margin right: 100px
+}
+
+#frank {
+    float: left;
+    margin-top: 59px
+}
+
+#search {
+    font-size: 20px;
+    float: right;
+    background-color: lightyellow;
+    border: 5px solid #456879;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+}
+
+p {
+    background-color: lightyellow;
+    padding: 12px;
+    border: 5px;
+    margin left: 100px
+}
+
+nav {
+    font-size: 16px;
+    background-color: lightyellow;
+    padding: 12px;
+    border: 5px;
+    margin left: 100px
+}
+
+body {
+    font-size: 24px;
+}

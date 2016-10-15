@@ -3,36 +3,50 @@
 
 <head>
     <link rel="stylesheet" href="stylesheet.css" type="text/css" media="all" />
+    <link rel="data" href="/JS/weather.json" type="text/javascript" media="all" />
     <meta charset="utf-8">
-    <title> Always Sunny Weather Site Plan</title>
-
-</head>
+    <link rel="stylesheet" type="text/css" href="/HW/styles/franklinscreen.css" media="screen">
+    <title> Franklin Weather Plan</title>
    
+</head>
+
 
 <body style="background:#80BFFF">
 
     <header>
-        <img alt="logo" src='/Images/weatherlogo-01.png' height="150" width="290">
+        <img alt="logo" src='/Images/weatherlogo-01.png' height="120" width="360">
+          <input id=search type="text" name="search" placeholder="Search..">
+       
         <br>
-        
-        <section style="background:#999911">
-        <nav >
-            <ul>
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="city1">City 1</a></li>
-                <li><a href="city2">City 2</a></li>
-                <li><a href="city3">City 3</a></li>
-            </ul>
-        </nav>
-        </section>
-        <section>
-        <h1>Franklin</h1></section>
-        <img alt="wireframe" src='/Images/image1.PNG' height="150" width="250">
-        <img alt="sunny" src='/Images/sunnyweather.jpg' height="150" width="250">
+
+            <nav>
+                <ul>
+                    <li><a href="default.asp">Home</a></li>
+                    <li><a href="frank">Franklin</a></li>
+                    <li><a href="greenfield">Greenville</a></li>
+                    <li><a href="spring">Springfield</a></li>
+                
+                </ul>
+            </nav>
+        <section id=daily>
+              <img id=frank alt="franklogo" src='/Images/franklogo-01.png' height="150" width="400">
+            
+        <img  id=abc alt="sunny" src='/Images/sunnyweather.jpg' height="150" width="250">
+            </section>
     </header>
 
 
     <main>
+        <h1>"High": 90,</h1>
+		<h1>"Low": 66,</h1>
+		<h3>"Precip": 0,</h3>
+		<h3>"Wind": "1 - 5",</h3>
+		<h3>"Direction": "Southwest",</h3>
+		<h3>"Summary": "Sunny",</h3>
+		<h3>"Longitude": -111.803757,</h3>
+		<h3>"Latitude": 42.011902,</h3>
+		
+        <img alt="wireframe" src='/Images/image1.PNG' height="150" width="250">
 
     </main>
     <footer></footer>
