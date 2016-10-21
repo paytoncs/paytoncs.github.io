@@ -34,4 +34,4 @@ li{border: 5px solid black;}
 
 @media
     (max-width:440px){
-        nav li{width:100% 50px;text-align:center;margin-left: 32px;}
+        nav li{width:70% 40px;text-align:center;margin-left: 32px;}
