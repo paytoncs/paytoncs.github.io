@@ -1,3 +1,6 @@
+fancynav{margin-top: 100px;}
+    
+    logo{height:10px;width:100%;}
 h1{background-color: lightsalmon;
     border:10px;
     padding: 12px;
@@ -10,22 +13,18 @@ p{
     border:5px;
     margin left:100px
 }
-nav{align-content: center; font-size:25px; 
-    list-style-type: none;
-    font-size: 100px 
-    background-color: lightsalmon;
-    padding: 12px;padding: 12px;
+nav{font-size:18px;
     border-color:black;5px;
-    margin left:100px
+    margin left:10px
 }
-nav li{font-family: sans-serif;font-weight: 600;
+nav li{font-family: sans-serif;font-weight: 900;
     display: block;
     width: 375px;
     background-color: lavenderblush;
     padding: 8px 16px;}
     li:hover {
     background-color:salmon;
-        color: white;font-style: italic;font-size: 29px;}
+    color: white;font-style: italic;font-size: 20px;}
 a {color:black;
     text-decoration: none;text
 }
@@ -33,5 +32,13 @@ a {color:black;
 li{border: 5px solid black;}
 
 @media
-    (max-width:440px){
-        nav li{width:70% 40px;text-align:center;margin-left: 32px;}}
+    (min-width:440px){
+        nav li{font-family: sans-serif;font-weight: 900;
+    display: block;
+    width: 375px;
+    background-color: lavenderblush;
+    padding: 8px 16px;}
+    li:hover {width: 600px;
+    background-color:salmon;
+    color: white;font-style: italic;font-size: 40px;}
+       
