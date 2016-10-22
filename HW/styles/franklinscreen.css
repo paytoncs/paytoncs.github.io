@@ -1,7 +1,6 @@
 /*Change the css box model*/
 
-html* {
-    box-sizing: border-box;
+
 }
 
 *:before,
@@ -47,13 +46,13 @@ html* {
 h1 {
     background-color: lightyellow;width:120%;
     border: 10px solid #000000;
-    padding: 44px;
+    padding: 44px;text-align: center;
   
 }
 h2 {width:134%;
     background-color: lightyellow;
     border: 10px solid #000000;
-    padding: 20px;
+    padding: 20px;text-align: center;
 
  
 }
@@ -84,20 +83,19 @@ nav a {color:black;
 body {
     font-size: 24px;
 }
-table, th, td {display: none;
+table, th, td {width:100%;
     border: 6px solid black;background-color: lightyellow;
     text-align: center;
 }
 @media only screen and
-    (min-width:400px){
-        table:{display:table;}
-        nav {
-    display: block;
-    width: 100%;
-    background-color: #f1f1f1;
-    padding: 8px 16px;}
-    li:hover {
-    background-color:lightsalmon;
-    color: white;
+    (max-width:321px){
+        table{display: none;}
 }
+@media only screen and
+    (min-width:321px){
         
+}
+@media only screen and
+    (min-width:321px){
+        table{show;}
+}
