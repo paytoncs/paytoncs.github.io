@@ -12,7 +12,7 @@
 
 
 
-#mainlogo {height: 200px;width:500px;margin-left: -15px;margin-top: -15px ;padding-bottom: -15px; background-color: lightyellow;}
+#mainlogo {height: 200px;width:500px;margin-left: -15px;margin-top: -15px ;padding-bottom: -15px; background-color: none;}
 #search {
     font-size: 20px;
     margin-left: 79px;
@@ -95,7 +95,7 @@ table, th, td {width:100%;
 /*tablet*/
 @media only screen and
     (min-width:375px){
-    #mainlogo {margin-left:-10px;height: 300px;width:165%; background-color: lightyellow;}
+    #mainlogo {margin-left:-10px;height: 300px;width:170%; background-color: lightyellow;}
 #search {
     20px;
     margin-left: 800px;
@@ -174,6 +174,83 @@ table, th, td {width:200px;margin-left: 200px;
 }
 /*browser*/
 @media only screen and
-    (min-width:1000px){
+    (min-width:1000px){ 
+        #mainlogo { margin-left:-10px;height: 300px;width:80%;background-color:#80BFFF;  }
+#search {
+    20px;
+    margin-left: 30px;
+     margin-top: 0px;
+    background-color: lightyellow;
+    border: 5px solid #456879;
+    border-radius: 10px;
+    height: 40px;
+    width:63%;
+}
+
+#sunnypic {height:300px;width:400px;
+    background-color: lightyellow;
+    border: 5px solid #121212;
+    padding: 15px;
+    margin-left:282px;margin-bottom:0px;margin-top:8px;
+    
+}
+
+
+#frank {height:400px; width: 40%; margin-bottom: -40px;margin-top: -40px;
+    
+   
+    margin-left:40px;
+}
+#daily {width:162%;
+    margin-top: 30px;
+    background-color: cornflowerblue;
+    border: 5px solid #121212;
+}
+h1 {
+    background-color: lightyellow;width:150%;
+    border: 10px solid #000000;
+    padding: 44px;text-align: center;
+  
+}
+h2 {width:156%;
+    background-color: lightyellow;
+    border: 10px solid #000000;
+    padding: 20px;text-align: center;
+
+ 
+}
+
+p {
+    background-color: lightyellow;
+    padding: 12px;
+    border: 5px;
+
+}
+
+nav { margin-top: 0px;
+    display: block;
+    width: 68%;
+    margin-left:-25px;
+    padding: 8px 16px;}
+    li:hover {
+    background-color:lightsalmon;
+    color:;
+}
+
+
+nav li{list-style-type: none;background-color: aliceblue;
+    border: 5px solid black;text-align: center;}
+nav a {color:black;
+    text-decoration: none;
+    }
+body {
+    font-size: 24px;
+}
+table, th, td {height:50px;margin-left: 200px;
+    border: 6px solid black;background-color: orange;
+    text-align: center;
+}    
+
+
         
 }
