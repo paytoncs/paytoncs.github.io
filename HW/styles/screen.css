@@ -1,6 +1,7 @@
 fancynav{margin-top: 100px;}
     
-    logo{height:10px;width:100%;}
+    #logo{width:450px; height:130}
+
 h1{background-color: lightsalmon;
     border:10px;
     padding: 12px;
@@ -11,11 +12,12 @@ p{
    background-color: lightsalmon;
     padding: 12px;
     border:5px;
-    margin left:100px
+    margin-left:100px
 }
-nav{font-size:18px;
-    border-color:black;5px;
-    margin left:10px
+nav{font-size:18px;background-image:
+    border-color:black;
+    margin-left:-25px;
+        width:100%;
 }
 nav li{font-family: sans-serif;font-weight: 900;
     display: block;
@@ -39,6 +41,6 @@ li{border: 5px solid black;}
     background-color: lavenderblush;
     padding: 8px 16px;}
     li:hover {width: 600px;
-    background-color:salmon;
+    background-image:url(/Images/stripe.jpeg)
     color: white;font-style: italic;font-size: 40px;}
        
