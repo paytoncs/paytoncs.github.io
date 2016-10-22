@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="stylesheet.css" type="text/css" media="all" />
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/HW/styles/franklinscreen.css" media="screen">
+    <meta name="viewport" content="width=device-width">
     <title> Franklin Weather Plan</title>
    
 </head>
@@ -12,13 +13,13 @@
 
 <body style="background:#80BFFF">
 
-    <header>
-        <img alt="logo" src='/Images/weatherlogo-01.png' height="120" width="360">
+    <header id="page-header">
+        <img id="mainlogo" alt="logo" src='/Images/weatherlogo-01.png' height="120" width="360">
           <input id=search type="text" name="search" placeholder="Search..">
        
         <br>
 
-            <nav>
+            <nav id="page-nav">
                 <ul>
                      <li><a class="backhome" href="/index.html">Back Home</a></li>
                     <li><a href="frank">Franklin</a></li>
@@ -27,25 +28,97 @@
                 
                 </ul>
             </nav>
+        </header>
         <section id=daily>
               <img id=frank alt="franklogo" src='/Images/franklogo-01.png' height="150" width="400">
             
         <img  id=abc alt="sunny" src='/Images/sunnyweather.jpg' height="150" width="250">
             </section>
-    </header>
+    
 
 
     <main>
-        <h1>"High": 90</h1>
-		<h1>"Low": 66,</h1>
+        <section id=highlow>
+        <h1 id="high">High: 90</h1>
+		<h1 id="low">Low: 66,</h1>
+            </section><br>
+        
+        <table style="width:100%">
+  <tr>
+         <th>12:00 A.M.</th>
+    <th>1:00 A.M.</th>
+    <th>2:00 A.M.</th> 
+    <th>3:00 A.M.</th>
+      <th>4:00 A.M.</th>
+      <th>5:00 A.M.</th>
+         <th>6:00 A.M.</th>
+         <th>7:00 A.M.</th>
+         <th>8:00 A.M.</th>
+         <th>9:00 A.M.</th>
+         <th>10:00 A.M.</th>
+         <th>11:00 A.M.</th>
+    
+  </tr>
+  <tr>
+      <td>67</td>
+			<td>67</td>
+			<td>69</td>
+			<td>69</td>
+			<td>69</td>
+			<td>70</td>
+			<td>69</td>
+			<td>72</td>
+			<td>74</td>
+			<td>77</td>
+			<td>79</td>
+			<td>81</td>
+			
+  </tr>
+ 
+</table>
+                <table style="width:100%">
+  <tr>
+    <th>12:00 P.M. </th>
+    <th>1:00 P.M. </th>
+    <th>2:00 P.M. </th> 
+    <th>3:00 P.M. </th>
+      <th>4:00 P.M. </th>
+      <th>5:00 P.M. </th>
+         <th>6:00 P.M. </th>
+         <th>7:00 P.M. </th>
+         <th>8:00 P.M. </th>
+         <th>9:00 P.M. </th>
+         <th>10:00 P.M. </th>
+         <th>11:00 P.M. </th>
+      
+  </tr>
+  <tr>
+    	<td>84</td>
+			<td>86</td>
+			<td>88</td>
+			<td>90</td>
+			<td>90</td>
+			<td>85</td>
+			<td>83</td>
+			<td>79</td>
+			<td>74</td>
+			<td>70</td>
+			<td>68</td>
+			<td>66</td>
+  </tr>
+ 
+</table>
+        
 		<h2>"Precip": 0,</h2>
 		<h2>"Wind": "1 - 5",</h2>
 		<h2>"Direction": "Southwest",</h2>
 		<h2>"Summary": "Sunny",</h2>
 		<h2>"Longitude": -111.803757,</h2>
 		<h2>"Latitude": 42.011902,</h2>
-		
-        <img alt="wireframe" src='/Images/image1.PNG' height="150" width="250">
+		<img alt="wf2" src='/Images/image2.PNG' height="440" width="300">
+     <img alt="wf1" src='/Images/image1.PNG' height="300" width="480">
+    <img alt="wf3" src='/Images/image3.PNG' height="440" width="300">
+        
 
     </main>
     <footer></footer>
