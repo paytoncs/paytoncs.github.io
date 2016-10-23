@@ -41,6 +41,6 @@ li{border: 5px solid black;}
     background-color: lavenderblush;
     padding: 8px 16px;}
     li:hover {width: 600px;
-    background-image:url(/Images/stripe.jpeg)
+    background-image:url(/Images/stripe.jpeg);
     color: white;font-style: italic;font-size: 40px;}
        
