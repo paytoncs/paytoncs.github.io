@@ -105,7 +105,7 @@ td {
         margin-left: -10px;
         height: 300px;
         width: 170%;
-        background-color: lightyellow;
+        background-color: lightyellow:none;
     }
     
     #search {
