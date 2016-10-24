@@ -93,14 +93,14 @@ td {
 }
 
 /*mobile*/
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:425px) {
     table {
         display: none;
     }
 }
 
 /*tablet*/
-@media only screen and (min-width:400px) {
+@media only screen and (min-width:425px) {
     #mainlogo {
         margin-left: -10px;
         height: 300px;
@@ -110,12 +110,12 @@ td {
     
     #search {
         20px;
-        margin-left: 800px;
+        margin-left:60px;
         margin-top: 10px;
         background-color: lightyellow;
         border: 5px solid #456879;
         border-radius: 10px;
-        height: 70px;
+        height: 40px;
         width: 48%;
     }
     
