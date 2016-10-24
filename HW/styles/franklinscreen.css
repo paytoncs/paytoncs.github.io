@@ -93,14 +93,14 @@ td {
 }
 
 /*mobile*/
-@media only screen and (max-width:321px) {
+@media only screen and (max-width:400px) {
     table {
         display: none;
     }
 }
 
 /*tablet*/
-@media only screen and (min-width:375px) {
+@media only screen and (min-width:400px) {
     #mainlogo {
         margin-left: -10px;
         height: 300px;
