@@ -13,7 +13,7 @@ body{margin-left: 125px;
 }
 
 
-@media
+<--/@media
     (min-width:600px){
         #page-header{width:100%;
         text-align: center;}
