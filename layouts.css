@@ -3,7 +3,7 @@ html *{
 }
 
 #content{display:flex;
-flex-direction:column;}
+flex-direction:row;}
 /*
 *:before,
 *:after{
