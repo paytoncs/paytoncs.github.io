@@ -17,16 +17,15 @@ html {
 }
 
 #search {
-    font-size: 40px;
     background-color: white;
     border: 10px solid #456879;
 }
 
 nav {display: flex;align-content: space-between;
 }
-nav a { justify-content:flex-start;
+nav a {justify-content:flex-start;
     background-color: aliceblue;
-    border: 5px solid black;
+    border: 1px solid black;
 }
 
 
