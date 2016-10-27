@@ -10,38 +10,40 @@
    
 </head>
 
-
+<div class="wrapper">
 <body style="background:white;">
 
     <header id="page-header">
-        <img id="mainlogo" alt="logo" src='/Images/mainlogo-01.png' height="120" width="360">
-          <input id=search type="text" name="search" placeholder="Search..">
-       
+        <img id="mainlogo" alt="logo" src='/Images/mainlogo-01.png' height="120" width="360"> 
         <br>
-
-            <nav id="page-nav">
+<div class="page-nav">
+            <nav>
                 <ul>
-                     <li><a class="backhome" href="/index.html">Back Home</a></li>
-                    <li><a href="/Assignments/franklinweatherpage.html">Franklin</a></li>
-                    <li><a href="/Assignments/greenvilleweatherpage.html">Greenville</a></li>
-                    <li><a href="spring">Springfield</a></li>
+                     <li ><a class="backhome" href="/index.html">Back Home</a></li>
+                    <li class="nav-list"><a href="/Assignments/franklinweatherpage.html">Franklin</a></li>
+                    <li class="nav-list"><a href="/Assignments/greenvilleweatherpage.html">Greenville</a></li>
+                    <li class="nav-list"><a href="spring">Springfield</a></li>
                 
                 </ul>
             </nav>
+    <br>
+    <input id=search type="text" name="search" placeholder="Search..">
+    </div>
         </header>
         <section id=daily>
               <img id=frank alt="franklogo" src='/Images/franklin.png' height="150" width="400">
             
         <img  id=sunnypic alt="sunny" src='/Images/sunnyweather.jpg' height="150" width="250">
-            </section>
-    
-
-
-    <main>
-        <section id=highlow>
+            
         <h1 id="high">High: 90</h1>
 		<h1 id="low">Low: 66</h1>
-            </section><br>
+    
+            </section>
+     
+
+
+    <main id="frankback">
+       
         
         <table style="width:100%">
   <tr>
@@ -109,7 +111,8 @@
  
 </table>
         
-		<h2>"Precip": 0,</h2>
+		<div class="conditions">
+            <h2>"Precip": 0,</h2>
 		<h2>"Wind": "1 - 5",</h2>
 		<h2>"Direction": "Southwest",</h2>
 		<h2>"Summary": "Sunny",</h2>
@@ -118,11 +121,12 @@
 		<img alt="wf2" src='/Images/image2.PNG' height="440" width="300">
      <img alt="wf1" src='/Images/image1.PNG' height="300" width="480">
     <img alt="wf3" src='/Images/image3.PNG' height="440" width="300">
-        
+       </div>
 
     </main>
     <footer></footer>
 </body>
+    </div>
 
 
 

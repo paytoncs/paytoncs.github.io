@@ -1,14 +1,74 @@
-.container {
-  flex-direction: row | row-reverse | column | column-reverse;
+html {
+    direction: ltr;
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: column;
+}
+
+#page-header {
+    display: flex;justify-content: space-between;
+    background-color:lightgrey;
+}
+
+#mainlogo {display: flex;
+    background-color:lightgrey;
+    height: 430px;
+    width: 1100px;
+}
+
+#search {
+    display: flex;
+    font-size: 40px;
+    background-color: white;
+    border: 10px solid #456879;
+    height: 60px;
+}
+
+nav {margin-right: 30px;
+    margin-top: 4px;
+    display: block;
+    width: 500px;
+
+}
+
+li:hover {
+    background-image: url(/Images/waterdrops.jpg);
+    background-color: lavenderblush;
+}
+
+nav li {
+    list-style-type: none;
+    background-color: aliceblue;
+    border: 5px solid black;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+#daily {display:flex;flex-direction: row;justify-content:flex-start;align-content:flex-start;border: 1px solid #121212;}
+
+#frank {height: 200px;width: 800px;
+ 
+}
+
+#sunnypic {
+    background-color:lightblue;
+    margin-top: 8px;
+    border: 5px solid #121212;
+    padding: 15px;
 }
 
 
 
-}
-*:before,
-*:after {
-    box-sizing: border-box;
-}
+#high{}
+#low{}
+
+
+//*
 #mainlogo {
     height: 200px;
     width: 500px;
@@ -17,16 +77,18 @@
     padding-bottom: -15px;
     background-color: white;
 }
+
 #search {
     font-size: 20px;
     margin-left: 79px;
     margin-top: 10px;
-    background-color:white;
+    background-color: white;
     border: 5px solid #456879;
     border-radius: 10px;
     height: 30px;
     width: 100%;
 }
+
 #sunnypic {
     background-color: lightyellow;
     border: 5px solid #121212;
@@ -34,6 +96,7 @@
     margin-left: 82px;
     margin-bottom: 25px;
 }
+
 #frank {
     margin-left: 40px;
 }
@@ -44,6 +107,7 @@
     background-color: cornflowerblue;
     border: 5px solid #121212;
 }
+
 h1 {
     background-color: lightskyblue;
     width: 120%;
@@ -51,6 +115,7 @@ h1 {
     padding: 44px;
     text-align: center;
 }
+
 h2 {
     width: 134%;
     background-color: lightgrey;
@@ -58,11 +123,13 @@ h2 {
     padding: 20px;
     text-align: center;
 }
+
 p {
     background-color: lightyellow;
     padding: 12px;
     border: 5px;
 }
+
 nav {
     margin-top: 4px;
     display: block;
@@ -70,23 +137,28 @@ nav {
     margin-left: -24px;
     padding: 8px 16px;
 }
+
 li:hover {
-      background-image:url(/Images/waterdrops.jpg);
+    background-image: url(/Images/waterdrops.jpg);
     background-color: lavenderblush;
 }
+
 nav li {
     list-style-type: none;
     background-color: aliceblue;
     border: 5px solid black;
     text-align: center;
 }
+
 nav a {
     color: black;
     text-decoration: none;
 }
+
 body {
     font-size: 24px;
 }
+
 table,
 th,
 td {
@@ -96,7 +168,8 @@ td {
     text-align: center;
 }
 
-/*mobile*/
+
+/*mobile
 @media only screen and (max-width:425px) {
     table {
         display: none;
@@ -109,7 +182,7 @@ td {
         background-image:url(/Images/cloudy%20sky.jpg);}
 }
 
-/*tablet*/
+/*tablet
 @media only screen and (min-width:425px) {
     #mainlogo {
         margin-left: -10px;
@@ -211,7 +284,7 @@ td {
     }
 }
 
-/*browser*/
+browser/*
 @media only screen and (min-width:1000px) {
     #mainlogo {
         margin-left: -10px;
@@ -316,3 +389,7 @@ td {
         background-color: orange;
         text-align: center;
     }
+*/
+
+
+/*

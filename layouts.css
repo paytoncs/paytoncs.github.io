@@ -2,6 +2,9 @@ html *{
     box-sizing: border-box;
 }
 
+#content{display:flex;
+flex-direction:column;}
+/*
 *:before,
 *:after{
     box-sizing: border-box;
@@ -33,4 +36,4 @@ body{margin-left: 125px;
         #page-aside{float:left;
         width:20%;
         padding:1em;}
-        #page-footer{clear:left;}}
+        #page-footer{clear:left;}}/**/
