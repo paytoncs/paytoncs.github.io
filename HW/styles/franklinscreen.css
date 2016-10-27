@@ -22,13 +22,11 @@ html {
     border: 10px solid #456879;
 }
 
-nav {display: flex;justify-content: flex-end; margin-right: 30px;
+nav {display: flex;align-content: space-between;
 }
-nav li {
-    list-style-type: none;
+nav a { justify-content:flex-start;
     background-color: aliceblue;
     border: 5px solid black;
-    text-align: center;
 }
 
 
