@@ -29,22 +29,16 @@ nav a {justify-content:flex-start;
 }
 
 
-
-
-
-#daily {display:flex;flex-direction: row;justify-content:space-around;align-content:flex-start;border: 1px solid #121212;}
+#daily {display:flex;justify-content:space-between;border: 1px solid #121212;}
 
 #frank {
 }
 
-#sunnypic {margin-top: 30px;
+#sunnypic {
     background-color:lightblue;
-    margin-left: -500px;
     border: 5px solid #121212;
     padding: 15px;
 }
-#high{}
-#low{}
 table,th,td {font-size: 150%;
     border: 6px solid black;
     background-color:#35E8E1;
