@@ -20,8 +20,14 @@ html {
     height: 30%
 }
 
-#search {width: 400px;height: 100px;margin-top: 58px;
-    padding: 10px;font-size: 100px;
+#search {
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 100px;
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -51,8 +57,14 @@ nav a {
     width: 30%;
     height: 30%
 }
-#franklin{font-size:44px;}
-.daily p{font-size:44px;}
+
+#franklin {
+    font-size: 44px;
+}
+
+.daily p {
+    font-size: 44px;
+}
 
 .main {
     display: flex;
@@ -68,11 +80,14 @@ nav a {
 }
 
 .main th {
+    border: .5px solid black;
     font-size: 25px;
 }
 
 .main td {
+    border: .5px solid black;
     font-size: 25px;
+    background-color: lightgrey
 }
 
 .conditions {
@@ -118,4 +133,62 @@ nav a {
 
 footer {
     display: flex;
+}
+
+@media only screen and (min-width:525px) {
+    .conditions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .conditions1 {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .conditions2 {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .conditions h2 {
+        background-color: azure;
+        padding: 90px;
+        border: 20px solid;
+        font-size: 70px;
+        text-align: center;
+    }
+}
+
+
+}
+@media only screen and (min-width:1000px) {
+    .conditions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .conditions1 {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .conditions2 {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .conditions h2 {
+        background-color:deepskyblue;
+color: azure;
+        padding: 90px;
+        border: 30px solid;
+        font-size: 90px;
+        text-align: center;
+    }
+}
+
 }
