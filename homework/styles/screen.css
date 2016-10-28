@@ -1,0 +1,46 @@
+fancynav{margin-top: 100px;}
+    
+    #logo{width:450px; height:130}
+
+h1{background-color: lightsalmon;
+    border:10px;
+    padding: 12px;
+    margin left:100px}
+
+p{
+    
+   background-color: lightsalmon;
+    padding: 12px;
+    border:5px;
+    margin-left:100px
+}
+nav{font-size:18px;background-image:
+    border-color:black;
+    margin-left:-25px;
+        width:100%;
+}
+nav li{font-family: sans-serif;font-weight: 900;
+    display: block;
+    width: 375px;
+    background-color: lavenderblush;
+    padding: 8px 16px;}
+    li:hover {
+    background-color:lavenderblush;
+    color: white;font-style: italic;font-size: 20px;}
+a {color:black;
+    text-decoration: none;text
+}
+
+li{border: 5px solid black;}
+
+@media
+    (min-width:440px){
+        nav li{font-family: sans-serif;font-weight: 900;
+    display: block;
+    width: 375px;
+    background-color: lavenderblush;
+    padding: 8px 16px;}
+    li:hover {width: 600px;
+    background-image:url(/Images/stripe.jpeg);
+    color: white;font-style: italic;font-size: 40px;}
+       
