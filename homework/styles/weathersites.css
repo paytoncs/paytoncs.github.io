@@ -9,7 +9,7 @@ html {
 
 .page-header {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;flex-wrap: nowrap;
     justify-content: space-between;
     background-color: black;
     width: 100%;
