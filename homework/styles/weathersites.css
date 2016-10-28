@@ -15,11 +15,14 @@ html {
 
 nav {
     display: flex;
-    align-content: space-between;
+     flex-direction: row;
+    align-content: space-around;
 }
 
-p {
-    font-size: 100px;
+nav a {
+    justify-content: space-between;
+    background-color: aliceblue;
+    border: 1px solid black;
 }
 
 .daily {
@@ -60,23 +63,18 @@ td {
     flex-direction: row;
     justify-content: space-between;
 }
-
-.conditions1 h2 {
-    font-size: 70px;
-    font-family: serif
-}
-
 .conditions2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-h2 {background-color: azure;
-    width: 900px;
+h2 {
+    background-color: azure;
+    width: 30%px;
     padding: 100px;
     border: 10px solid;
-    font-size: 76px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -88,6 +86,12 @@ p {
 .wireframes {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    background: black;
+}
+
+.wireframes img {
+    height: 800px;
 }
 
 footer {
