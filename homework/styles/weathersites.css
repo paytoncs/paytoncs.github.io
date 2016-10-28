@@ -1,0 +1,38 @@
+html {
+    direction: ltr;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+
+nav {
+    display: flex;
+    align-content: space-between;
+}
+
+.daily {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #121212;
+}
+daily,p{}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.conditions{display: flex;
+    flex-direction: column;}
+.wireframes{display: flex;
+    flex-direction: row;}
+footer {
+    display: flex;
+}
