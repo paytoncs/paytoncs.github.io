@@ -8,11 +8,12 @@ html {
 }
 
 .page-header {
-    display: flex;
+    display: flex;flex-direction: row;
     justify-content: space-between;
     background-color: lightgrey;
 }
-#search{justify-content: flex-end;height: auto;}
+#mainlogo{width: 30%;height: 30%}
+#search{height: 20%;padding: 10px;}
 nav {
     display: flex;
      flex-direction: row;
