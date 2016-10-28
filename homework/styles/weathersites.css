@@ -142,7 +142,30 @@ footer {
     }
 }
 
-@media only screen and (min-width:1000px) {
+@media only screen and (min-width:1000px){
+ #search {
+        padding: 10px;
+        font-size: 25px;
+    }
+
+.conditions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conditions1 {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.conditions2 {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
     .conditions h2 {
         background-color: azure;
         padding: 70px;
