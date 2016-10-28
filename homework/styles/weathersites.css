@@ -142,12 +142,12 @@ footer {
 
 /*browser*/
 
-@media only screen and (min-width:950px) {
+@media only screen and (min-width:450px) {
     .page-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 100%;background-color: azure;
 }
     #search {
         width: 30%px;
@@ -160,11 +160,12 @@ footer {
         width: 20%;
         height: 20%
     }
-    .conditions {background-image: url(/images/rainysky.jpg);
+    .conditions {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
+        background-image: url(/images/rainysky.jpg);
     }
     .conditions1 {
         display: flex;
