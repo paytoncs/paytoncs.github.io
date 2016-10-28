@@ -44,7 +44,7 @@ nav a {
 
 .daily {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid #121212;
 }
 
@@ -52,6 +52,8 @@ nav a {
     width: 30%;
     height: 30%
 }
+#franklin{font-size:124px;}
+.daily p{font-size:84px;}
 
 .main {
     display: flex;
