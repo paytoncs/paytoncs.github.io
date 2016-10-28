@@ -60,7 +60,7 @@ nav a {
 }
 
 .daily p {
-    font-size: 24px;
+    font-size: 34px;
 }
 
 .main {
@@ -78,12 +78,10 @@ nav a {
 
 .main th {
     border: .5px solid black;
-    font-size: 15px;
 }
 
 .main td {
     border: .5px solid black;
-    font-size: 45px;
     background-color: lightgrey
 }
 
