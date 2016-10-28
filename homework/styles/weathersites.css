@@ -135,7 +135,7 @@ footer {
     display: flex;
 }
 
-@media only screen and (min-width:525px) {
+@media only screen and (min-width:350px) {
     #search {
         padding: 10px;
         font-size: 25px;
