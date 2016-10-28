@@ -78,11 +78,13 @@ nav a {
 
 .main th {
     border: .5px solid black;
+    font-size: 20px;
 }
 
 .main td {
     border: .5px solid black;
     background-color: lightgrey
+        font-size: 20px;
 }
 
 .conditions {
@@ -107,7 +109,7 @@ nav a {
 .conditions h2 {
     background-color: azure;
     border: 5px solid;
-    text-align: center;width: 40%;
+    text-align: center;width: 30%;
 }
 
 .conditions p {
