@@ -138,11 +138,17 @@ footer {
         padding: 10px;
         font-size: 25px;
     }
+        .page-header {display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;background-color: hotpink;
+}
 }
 
 /*browser*/
 
-@media only screen and (max-width:500px) {
+@media only screen and (min-width:500px) {
     .page-header {display: none;
     display: flex;
     flex-direction: row;
