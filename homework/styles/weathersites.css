@@ -147,7 +147,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: lightgrey;
     width: 100%;
 }
     #search {
@@ -161,7 +160,7 @@ footer {
         width: 20%;
         height: 20%
     }
-    .conditions {
+    .conditions {background-image: url(/images/rainysky.jpg);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
