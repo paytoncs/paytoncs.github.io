@@ -107,9 +107,9 @@ nav a {
 
 .conditions h2 {
     background-color: azure;
-    border: 10px solid;
+    border: 5px solid;
     font-size: 20px;
-    text-align: center;
+    text-align: center;width: 20%;
 }
 
 .conditions p {
@@ -130,7 +130,7 @@ nav a {
 footer {
     display: flex;
 }
-/*tablet*/
+/*tablet
 
 @media only screen and (min-width:350px) {
     #search {
@@ -139,7 +139,7 @@ footer {
         font-size: 25px;
     }
 }
-
+*/
 
 /*browser*/
 
