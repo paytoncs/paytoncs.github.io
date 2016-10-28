@@ -51,8 +51,8 @@ nav a {
     width: 30%;
     height: 30%
 }
-#franklin{font-size:124px;}
-.daily p{font-size:84px;}
+#franklin{font-size:44px;}
+.daily p{font-size:44px;}
 
 .main {
     display: flex;
