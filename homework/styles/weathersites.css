@@ -17,7 +17,7 @@ html {
 
 #mainlogo {
     width: 30%;
-    height: 30%;
+    height: 40%;
 }
 
 #search {
@@ -51,7 +51,7 @@ nav a {
 }
 
 .daily img {
-    width: 30%;
+    width: 40%;
     height: 30%
 }
 
@@ -60,7 +60,7 @@ nav a {
 }
 
 .daily p {
-    font-size: 44px;
+    font-size: 24px;
 }
 
 .main {
