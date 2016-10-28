@@ -12,7 +12,7 @@ html {
     justify-content: space-between;
     background-color: lightgrey;
 }
-
+#search{justify-content: flex-end;height: auto;}
 nav {
     display: flex;
      flex-direction: row;
@@ -33,29 +33,20 @@ nav a {
 
 .main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
-
-#table1 {
-    border: 6px solid black;
+.main table{border: 6px solid black;
     background-color: #35E8E1;
     text-align: center;
-    width: 100%
+    width: 80%;}
+.main th {
+    font-size: 25px;
 }
 
-#table2 {
-    border: 6px solid black;
-    background-color: #35E8E1;
-    text-align: center;
-    width: 100%;
-}
-
-th {
-    font-size: 52px;
-}
-
-td {
-    font-size: 52px;
+.main td {
+    font-size: 25px;
 }
 
 .conditions1 {
