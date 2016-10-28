@@ -20,7 +20,7 @@ html {
     height: 30%
 }
 
-#search {width: 400px;
+#search {width: 400px;height: 100px;margin-top: 58px;
     padding: 10px;font-size: 100px;
 }
 
