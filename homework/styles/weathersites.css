@@ -145,13 +145,13 @@ footer {
 @media only screen and (min-width:1000px){
  #search {
         padding: 10px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
 .conditions {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;width: 80%;
 }
 
 .conditions1 {
@@ -168,8 +168,8 @@ footer {
 
     .conditions h2 {
         background-color: azure;
-        padding: 70px;
-        border: 10px solid;
+        padding: 40px;
+        border: 5px solid;
         font-size: 10px;
         text-align: center;
     }
