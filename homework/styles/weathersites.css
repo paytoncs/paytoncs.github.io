@@ -78,19 +78,19 @@ nav a {
 
 .main th {
     border: .5px solid black;
-    font-size: 15px;
+    font-size: 75px;
 }
 
 .main td {
     border: .5px solid black;
-    font-size: 45px;
+    font-size: 75px;
     background-color: lightgrey
 }
 
 .conditions {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
@@ -109,7 +109,7 @@ nav a {
 .conditions h2 {
     background-color: azure;
     border: 5px solid;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;width: 20%;
 }
 
