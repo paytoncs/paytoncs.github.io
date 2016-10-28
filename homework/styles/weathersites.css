@@ -78,12 +78,12 @@ nav a {
 
 .main th {
     border: .5px solid black;
-    font-size: 75px;
+    font-size: 25px;
 }
 
 .main td {
     border: .5px solid black;
-    font-size: 75px;
+    font-size: 25px;
     background-color: lightgrey
 }
 
