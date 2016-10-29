@@ -132,7 +132,7 @@ footer {
 }
 /*tablet*/
 
-@media only screen and (min-width:450px) {
+@media only screen and (min-width:550px) {
     #search {
         width: 40%px;
         padding: 10px;
