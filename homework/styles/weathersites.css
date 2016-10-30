@@ -111,8 +111,8 @@ nav a {
 
 .conditions h2 {
     background-color: azure;
-    border: 5px solid;
-    text-align: center;width: 30%;
+    border: 5px solid;font-size: 12px;
+    text-align: center; width: 30%;
 }
 
 .conditions p {
