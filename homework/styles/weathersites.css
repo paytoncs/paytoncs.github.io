@@ -18,20 +18,20 @@ html {
     font-size: 26px;}
 #cityDisplay {font-family: sans-serif;
     font-weight: bolder;
-    font-size: 66px;
+    font-size: 40px;
     text-align: center;
     padding: 25px;
     width: 100%;}
     #current_conditions{font-family: sans-serif;
     font-weight: bolder;
-    font-size: 66px;
+    font-size: 36px;
     text-align: center;
     padding: 25px;
     width: 100%;
 }
 h2{font-family: sans-serif;
     font-weight: bolder;
-    font-size: 66px;
+    font-size: 36px;
     text-align: center;
     padding: 25px;
     width: 100%;}
