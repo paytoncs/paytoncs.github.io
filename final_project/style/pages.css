@@ -11,13 +11,13 @@ p{font-size:55px;}
 nav{background-color: aliceblue;text-decoration: none;
     
 }
-.section1{display: flex;flex-direction: row;background-color: antiquewhite;}
+.section1 image{display: flex;flex-direction: row;background-color: antiquewhite;
+    justify-content: space-between;}
 nav a{text-decoration: none;font-size: 42px;
     
 }
-.meimage{width: 50%;}
-.whatido{width: 50%;}
-.section2{display: flex;flex-direction: row;background-color: lightblue;}
+
+.section2{display: flex;flex-direction: column;background-color: lightblue; text-align: center}
 
 
 .section3{display: flex;flex-direction: row;background-color: antiquewhite;}
@@ -25,5 +25,3 @@ nav a{text-decoration: none;font-size: 4
     2px;
     
 }
-
-
