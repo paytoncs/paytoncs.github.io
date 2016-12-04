@@ -6,16 +6,39 @@
     <link rel="stylesheet" type="text/css" href="/homework/styles/weathersites.css" media="screen">
     <meta name="viewport" content="width=device-width;initial-scale=1.0">
     <title> Current Location</title>
+<script>
+        /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
 
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
 
 
 </head>
-
+<!--  *********************************************
+* Who Did You Collaborate With On This Assessment?
+* 1. Mike Shoaf
+* 2. Payton Smith ******************************************** -->
 
 
 
 <body>
-
+<noscript><a href="/weather/sitemap.html">JavaScript is not enabled, For navigation click to see the Site Map</a>
+            </noscript>
     <div class="wrapper">
         <header class="page-header">
             <img id="mainlogo" alt="logo" src='/images/mainlogo-01.png'>
@@ -38,17 +61,40 @@
             <input type="search" name="query" id="query">
             <input type="submit" name="submit" value="Search" id="send">
         </form>
-        <div id="status">Weather info will be displayed here</div>
-        <section id="searchResults">
-            <h2>Search Results</h2>
-        </section>
+        <div id="status">Weather Conditions Displayed Here</div>
+       
      
 
       
+<main>
+            <noscript><a href="/weather/sitemap.html">JavaScript is not enabled, For navigation click to see the Site Map</a>
+            </noscript>
+
+            <div>
+                <section class='current' id='weatherData'>
+                    <div id="cover">
+                      
+                    </div>
+                    <ul id='current_conditions'>
+                        <li>
+                            <h1 id='cityDisplay'></h1></li>
+                        <li id='currentTemp'></li>
+                        <li id='highTemp'></li>
+                        <li id='lowTemp'></li>
+                    </ul>
+                    <figure id='iconFig'></figure>
+                </section>
+              
+            
+                <h2 id='resultsHeading'>Search Results</h2>
+                <section id="searchResults">
+                    <h2></h2>
+                </section>
+            </div>
+        
 
 
-
-        <main class="main">
+    
 
             <table>
                 <tr>
