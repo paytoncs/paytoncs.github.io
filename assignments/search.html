@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width;initial-scale=1.0">
     <title> Current Location</title>
 
-    
+
 
 </head>
 
@@ -19,7 +19,7 @@
     <div class="wrapper">
         <header class="page-header">
             <img id="mainlogo" alt="logo" src='/images/mainlogo-01.png'>
-            <input id=search type="text" name="search" placeholder="Search..">
+            
 
         </header>
         <nav>
@@ -34,55 +34,32 @@
 
         </nav>
         <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
-        
-        <input type="search" name="query" id="query">
-        <input type="submit" name="submit" value="Search" id="send">
-    </form>
- <div id="status">Weather info will be displayed here</div>
+
+            <input type="search" name="query" id="query">
+            <input type="submit" name="submit" value="Search" id="send">
+        </form>
+        <div id="status">Weather info will be displayed here</div>
         <section id="searchResults">
             <h2>Search Results</h2>
         </section>
-        <div id="content">
-            <h1 class="cityDisplay"></h1>
-
-            <h2 class="forecast"></h2>
-            <h3 id="precipitation"></h3>
-
-            <figure>
-                <div id="image"></div>
-
-
-                <p class="current"></p>
-
-            </figure>
-
-
-
-
-
-            <h3 class="wind"></h3>
-
-            <p class="lon"></p>
-            <p class="lat"></p>
-
-        </div>
+     
 
         <div>
-                <section class='current' id='weatherData'>
-                    
-                    <ul id='current_conditions'>
-                        <li>
-                            <h1 id='cityDisplay'></h1></li>
-                        <li id='currentTemp'></li>
-                        <li id='highTemp'></li>
-                        <li id='lowTemp'></li>
-                    </ul>
-                    <figure id='iconFig'></figure>
-                </section>
-                       
-               
-               
-            </div>
+            <section class='current' id='weatherData'>
+
+                <ul id='current_conditions'>
+                    <li>
+                        <h1 id='cityDisplay'></h1></li>
+                    <li id='currentTemp'></li>
+                    <li id='highTemp'></li>
+                    <li id='lowTemp'></li>
+                </ul>
+                <figure id='iconFig'></figure>
+            </section>
+
+
+
+        </div>
 
 
 
@@ -203,13 +180,13 @@
         </section>
 
         <footer>
-            </footer>
-        
+        </footer>
+
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="/assignments/search.js/search.js"></script>
         <script src="/javascript/curmodules.js"></script>
     </div>
-    </body>
+</body>
 
 
 
