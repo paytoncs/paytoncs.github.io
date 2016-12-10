@@ -2,7 +2,7 @@ wrapper {}
 
 .header {
     display: flex;
-    width: 100%;
+    width: 30%;
     justify-content:center;
 }
 
@@ -36,10 +36,10 @@ li{border: 5px solid black;}
     flex-direction: row;
     background-color: antiquewhite;
 }
-.section1 img {align-items: center; height: 900px;width: 1300px;
+img {flex-direction: column; height: 900px;width: 1300px;
     
 }
-
+.me1
 
 nav a {
     text-decoration: none;
