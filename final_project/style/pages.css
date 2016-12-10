@@ -17,7 +17,7 @@ wrapper {}
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 p {
@@ -29,10 +29,6 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
-}
-
-#meetme {
-    align-items: center;
 }
 
 nav a {
@@ -48,49 +44,67 @@ nav a {
     text-align: center;
 }
 
-a:hover {
-    background-color: lime;
-}
+nav a {
+    text-decoration: none;
+    font-size: 42px;}
+    nav a:hover {
+        background-color: lime;
+    }
 
 
-}
 .section1 {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: antiquewhite;
+    justify-content: space-around;
 }
-img {
-    flex-direction: column;
-    height: 900px;
-    width: 1300px;
+
+.section1 img {
+    height: 600px;
+    width: 800px;
 }
-.me1 nav a {
-    text-decoration: none;
-    font-size: 42px;
+
+
 }
 .section2 {
+    background-color: black;
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
-    text-align: center
 }
-.section3 {
+.section3a {
+    padding: 40px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    background-color: white;
+    flex-direction: row;
     justify-content: center;
 }
-.section4 {
+.section3b {
+    padding: 19px;
+    background-color: lightgreen;
+}
+.section4a {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: lightblue;
-    text-align: center
+    padding: 10px;
+}
+.section4b {
+    display: flex;
+    justify-content: space-around;
+     background-color: lightblue;
+}
+.section4b img {
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightblue;
 }
 .section5 {
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
     text-align: center
 }
 .section6 {
