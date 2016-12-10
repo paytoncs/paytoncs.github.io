@@ -1,27 +1,83 @@
-wrapper{
+wrapper {}
 
-}
-.header{display: flex;width:100%;justify-content: space-between;
-  
-    
-}
-#search{align-items: flex-end; }
-h1{font-size: 80px;}
-p{font-size:55px;}
-nav{background-color: aliceblue;text-decoration: none;
-    
-}
-.section1 image{display: flex;flex-direction: row;background-color: antiquewhite;
-    justify-content: space-between;}
-nav a{text-decoration: none;font-size: 42px;
-    
+.header {
+    display: flex;
+    width: 100%;
+    justify-content:center;
 }
 
-.section2{display: flex;flex-direction: column;background-color: lightblue; text-align: center}
+#search {
+    align-items: flex-end;
+}
 
+h1 {text-align: center;
+    font-size: 80px;
+}
 
-.section3{display: flex;flex-direction: row;background-color: antiquewhite;}
-nav a{text-decoration: none;font-size: 4
-    2px;
+p {
+    font-size: 55px;
+}
+nav{display: flex;justify-content: space-between;  margin-bottom: 60px;10px solid black;}
+#meetme{align-items: center;}
+nav a{color:black;border: 10px solid black;;font-family: sans-serif;font-weight: 700;
+    display: block;
+    width: 375px;
+    background-color: lightblue;
+    padding: 8px 16px;text-align: center;}
+    a:hover {
+    background-color:lime;}
+}
+
+li{border: 5px solid black;}
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+}
+.section1 img {align-items: center; height: 900px;width: 1300px;
     
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 42px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    text-align: center
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    text-align: center
+}
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    text-align: center
+}
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    text-align: center
 }

@@ -2,9 +2,9 @@ wrapper{
 
 }
 .header{display: flex;width:100%;justify-content: space-between;
-  
-    
 }
+.mainlogo{width:30%;height:20%;margin-top: -100px;margin-bottom: -90px}
+
 #search{align-items: flex-end; }
 h1{font-size: 80px;}
 p{font-size:55px;}
