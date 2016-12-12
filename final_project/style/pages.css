@@ -7,8 +7,8 @@ wrapper {}
 }
 
 .mainlogo {
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 250px;
 }
 
 #search {
@@ -33,10 +33,10 @@ nav {
 
 nav a {
     color: black;
-    border: 10px solid black;
+    border: 2px solid black;
     ;
     font-family: sans-serif;
-    font-weight: 40;
+    font-weight: 10;
     display: block;
     width: 100%;
     background-color: lightblue;
@@ -46,7 +46,7 @@ nav a {
 
 nav a {
     text-decoration: none;
-    font-size: 42px;}
+    font-size: 12px;}
     nav a:hover {
         background-color: lime;
     }
@@ -87,6 +87,7 @@ nav a {
     background-color: lightblue;
     padding: 10px;
 }
+.darkgreen{background-color: #2F522F}
 .section4b {
     display: flex;
     justify-content: space-around;
@@ -112,3 +113,13 @@ nav a {
     text-align: center
 }
 li{font-size: 34px;}
+/*tablet*/
+
+@media only screen and (min-width:650px) {
+    .section1 img {
+    height: 800px;
+    width: 1100px;
+}
+    
+    
+}
