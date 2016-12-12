@@ -114,12 +114,13 @@ nav a {
 li{font-size: 34px;}
 /*tablet*/
 
-media only screen and (min-width:650px) {
-  .section1 img {
-    height: 3%;width: 20%
+media only screen and (min-width:550px) {
+  .section1 img {background-color: greenyellow;
+    height: 300px;width: 200px;
 }
 
 }
     
     
-}
+@media only screen and (min-width:900px) {
+    .page-header {}
