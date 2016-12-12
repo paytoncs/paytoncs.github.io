@@ -60,8 +60,7 @@ nav a {
 }
 
 .section1 img {
-    height: 300px;
-    width: 400px;
+    height: 1%;width: 20%
 }
 
 
@@ -115,10 +114,11 @@ nav a {
 li{font-size: 34px;}
 /*tablet*/
 
-@media only screen and (min-width:650px) {
-    .section1 img {
-    height: 800px;
-    width: 1100px;
+media only screen and (min-width:650px) {
+  .section1 img {
+    height: 3%;width: 20%
+}
+
 }
     
     
