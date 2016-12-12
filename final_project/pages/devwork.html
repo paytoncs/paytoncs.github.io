@@ -2,72 +2,48 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/final_project/style/pages.css" media="screen">
-    <meta name="viewport" content="width=device-width;initial-scale=1.0">
-    <title> Payton Smith Design</title>
-
+    <meta charset="UTF-8">
+    <title>Payton Smith Development Work</title>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="/jsonweather-html/css/weather-style.css" type="text/css" media="screen">
 </head>
-
+<!-- *********************************************
+* Who Did You Collaborate With On This Assessment?
+* 1. Michael Shoaf
+* 2. Payton Smith
+* 3. Samantha Caldes
+* 4. Joe Canto
+* ******************************************** -->
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <img class="mainlogo" alt="This will be my main logo" src='/final_project/image/Untitled-13-01.jpg'>
-</header>
-            <nav>
-
-                <a href="main.html">Back Home</a>
-                <a href="logowork.html">Logo Work</a>
-                <a href="devwork.html">Development</a>
-                <a href="gettoknowme.html">Get To Know Me</a>
-                <a href="">My Resume</a>
-                <a href="">Hire Me</a>
-            </nav>
-          
-
-        </header>
-        <section class='section1'>
-            <img alt="me" src='/final_project/image/wireframe/phone.jpeg'>
-            <img alt="me" src='/final_project/image/wireframe/phone.jpeg'>
-            <img alt="me" src='/final_project/image/wireframe/phone.jpeg'>
-        </section>
-        <section class='section2'>
-
-                <h1>My Dev. Work</h1>
-                <p>I have always had a fasination with art and design. This talent and hobby has taken me farther than I ever thought that it would. I now have a degree in graphic design with an emphasis in typography. This major has benefited me greatly in the field of logo design. I have designed logos for several companies including one milti-million dollar company Ecosmart. </p>
-            </div>
-
-        </section>
-        <section class='section3'>
-<img alt="me" src='/final_project/image/wireframe/phone.jpeg'>
-            <img alt="me" src='/final_project/image/wireframe/phone.jpeg'>
-            <img alt="me" src='/final_project/image/wireframe/phone.jpeg'>
-    </section>
-           <section class='section4'>
-
-                <h1>My Style</h1>
-                <p>I have always had a fasination with art and design. This talent and hobby has taken me farther than I ever thought that it would. I now have a degree in graphic design with an emphasis in typography. This major has benefited me greatly in the field of logo design. I have designed logos for several companies including one milti-million dollar company Ecosmart. </p>
-            </div>
-
-        </section>
-
-
-
-
-
-
-    <section class='wireframes'>
-        <img alt="wf1" src='/final_project/image/wireframe/phone.jpeg'>
-        <img alt="wf2" src='/final_project/image/wireframe/ipad.jpeg'>
-        <img alt="wf3" src='/final_project/image/wireframe/browser.jpeg'>
-    </section>
-
-    <footer>paytonsmithdesign.com</footer>
+    <div id="wrapper">
+        <header id="page-header"></header>
+        <nav id="page-nav"></nav>
+        <main id="page-main">
+            <section class="weather-container">
+                <div id="cover">
+                    <div id="status">Loading...</div>
+                </div>
+                <h1 id="cityDisplay"></h1>
+                <h2>Current Conditions</h2>
+                <ul id="current_conditions">
+                    <li id="currentTemp"></li>
+                    <li id="summary"></li>
+                    <li id="add1"></li>
+                    <li id="add2"></li>
+                    <li id="add3"></li>
+                </ul>
+            </section>
+        </main>
+        <footer id="page-footer">
+            <div id="footer-content"></div>
+            <small>Last updated: </small>
+        </footer>
+        <script src="/jsonweather-html/scripts/jquery-3.0.0.min.js"></script>
+        <script src="/jsonweather-html/scripts/modules.js"></script>
+        <script src="/jsonweather-html/scripts/remote_wu.js"></script>
     </div>
 </body>
-
-
-
 
 </html>

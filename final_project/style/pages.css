@@ -60,8 +60,8 @@ nav a {
 }
 
 .section1 img {
-    height: 600px;
-    width: 800px;
+    height: 300px;
+    width: 400px;
 }
 
 
@@ -71,9 +71,7 @@ nav a {
     display: flex;
     flex-direction: column;
 }
-.section3a {
-    padding: 40px;
-    width: 100%;
+.section3a img {width:100%; 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -95,8 +93,8 @@ nav a {
      background-color: lightblue;
 }
 .section4b img {
-    height: 900px;
-    width: 900px;
+    height: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -113,3 +111,4 @@ nav a {
     background-color: lightblue;
     text-align: center
 }
+li{font-size: 34px;}
