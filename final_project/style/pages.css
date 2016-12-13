@@ -1,3 +1,6 @@
+/* Media Query for small screen sizes */
+@media screen and (min-width: 480px){
+
 wrapper {}
 
 .header {
@@ -7,8 +10,7 @@ wrapper {}
 }
 
 .mainlogo {
-    width: 450px;
-    height: 250px;
+ width: 25%;height: 10%
 }
 
 #search {
@@ -60,13 +62,13 @@ nav a {
 }
 
 .section1 img {
-    height: 1%;width: 20%
+
 }
 
 
 }
 .section2 {
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -111,22 +113,25 @@ nav a {
     background-color: lightblue;
     text-align: center
 }
+.section1dev{display: flex;
+    flex-direction: row;justify-content: center;
+   }
+.section1dev img{width: 40%;height:40%
+   }
+
 li{font-size: 34px;}
-/*tablet*/
+footer{display: flex;justify-content: space-around; padding: 30px;}
+footer a{flex-direction: row; padding: 50px;}
 
-media only screen and (min-width:550px) {
-  .section1 img {background-color: greenyellow;
-    height: 300px;width: 200px;
+
+
+/* Media Query for medium screen*/
+@media screen and (min-width: 768px){
+    
+    .section1 img {
+    height: 1%;width: 20%
+}
 }
 
-}
-    
-    
-@media only screen and (min-width:900px) {.section4b img {
-    height: 600px;
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: lightblue;
-}
+/* Media Query for large screen*/
+@media screen and (min-width: 1200px){}
