@@ -10,7 +10,7 @@ wrapper {}
 }
 
 .mainlogo {
- width: 25%;height: 10%
+ width: 15%;height: 10%
 }
 
 #search {
@@ -61,7 +61,7 @@ nav a {
     justify-content: space-around;
 }
 
-.section1 img {
+.section1 img {height: 1%;width: 20%
 
 }
 
@@ -129,7 +129,7 @@ footer a{flex-direction: row; padding: 50px;}
 @media screen and (min-width: 768px){
     
     .section1 img {
-    height: 1%;width: 20%
+    height: 2%;width: 30%
 }
 }
 
