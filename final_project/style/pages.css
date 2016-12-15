@@ -12,7 +12,7 @@ wrapper {
     width: 25%;
     height: 10%
 }
-
+#bus{width: 100%;}
 #search {
     align-items: flex-end;
 }
