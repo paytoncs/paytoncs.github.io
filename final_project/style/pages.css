@@ -1,7 +1,6 @@
-/* Media Query for small screen sizes */
-@media screen and (min-width: 480px){
-
-wrapper {}
+wrapper {
+    width: 100%;
+}
 
 .header {
     display: flex;
@@ -10,27 +9,41 @@ wrapper {}
 }
 
 .mainlogo {
- width: 15%;height: 10%
+    width: 25%;
+    height: 10%
 }
 
 #search {
     align-items: flex-end;
 }
 
-h1 {background-color: lime;
+h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 10px;
 }
 
 p {
     text-align: center;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 nav a {
@@ -38,41 +51,168 @@ nav a {
     border: 2px solid black;
     ;
     font-family: sans-serif;
-    font-weight: 10;
     display: block;
     width: 100%;
     background-color: lightblue;
-    padding: 8px 16px;
     text-align: center;
 }
 
 nav a {
     text-decoration: none;
-    font-size: 12px;}
-    nav a:hover {
-        background-color: lime;
-    }
+    font-size: 12px;
+}
 
+nav a:hover {
+    background-color: lime;
+}
 
 .section1 {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
-
-.section1 img {height: 1%;width: 20%
-
+video{width:100%;justify-content: center;}
+.section1 img {
+    height: 1%;
+    width: 100%
 }
 
+.section2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.section3a img {
+    height: 1%;
+    width: 10%; display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section3b {
+    background-color: lightgreen;
+}
+.section4a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding: 10px;
+}
+.darkgreen {
+    background-color: #2F522F
+}
+.section4b {
+    justify-content: space-around;
+    background-color: lightblue; flex-direction: column;
+}
+.section4b img {
+    width: 100%;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+.section5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+.section6 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    text-align: center
+}
+.section1dev {
+    display: flex;
+    flex-direction: column;
+}
+.section1dev img {
+    height: 1%;
+    width: 20%
+}
+footer {
+    flex-direction: column;
+    display: flex;
+  
+}
 
+/* Media Query for small screen sizes */
+@media screen and (min-width: 480px) {
+    wrapper {}
+    
+    .header {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .mainlogo {
+        width: 15%;
+        height: 10%
+    }
+    
+    #search {
+        align-items: flex-end;
+    }
+    
+    h1 {
+        background-color: lightgreen;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    
+    nav a {
+        color: black;
+        border: 2px solid black;
+        ;
+        font-family: sans-serif;
+        display: block;
+        width: 100%;
+        background-color: lightblue;
+        padding: 8px 16px;
+        text-align: center;
+    }
+    
+    nav a {
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+    nav a:hover {
+        background-color: lime;
+    }
+    
+    .section1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .section1 img {
+        height: 1%;
+        width: 20%
+    }
 }
 .section2 {
     background-color: white;
     display: flex;
     flex-direction: column;
 }
-.section3a img {width:100%; 
+.section3a img {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -88,17 +228,17 @@ nav a {
     background-color: lightblue;
     padding: 10px;
 }
-.darkgreen{background-color: #2F522F}
+.darkgreen {
+    background-color: #2F522F
+}
 .section4b {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-     background-color: lightblue;
+    background-color: lightblue;
 }
 .section4b img {
-    height: 200px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
+ width:20%;height:5%;
     justify-content: space-around;
     background-color: lightblue;
 }
@@ -113,25 +253,34 @@ nav a {
     background-color: lightblue;
     text-align: center
 }
-.section1dev{display: flex;
-    flex-direction: row;justify-content: center;
-   }
-.section1dev img{width: 40%;height:40%
-   }
-
-li{font-size: 34px;}
-footer{display: flex;justify-content: space-around; padding: 30px;}
-footer a{flex-direction: row; padding: 50px;}
-
-
+.section1dev {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section1dev img {
+    width: 40%;
+    height: 40%
+}
+li {
+    font-size: 14px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+footer a {
+    flex-direction: row;
+}
 
 /* Media Query for medium screen*/
-@media screen and (min-width: 768px){
-    
+@media screen and (min-width: 768px) {
     .section1 img {
-    height: 2%;width: 0%
-}
+        height: 2%;
+        width: 20%
+    }
 }
 
 /* Media Query for large screen*/
-@media screen and (min-width: 1200px){}
+@media screen and (min-width: 1200px) {}
